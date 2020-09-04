@@ -78,13 +78,17 @@ To use aws-azure-login with AWS GovCloud, set the `region` profile property in y
 - us-gov-west-1
 - us-gov-east-1
 
-    ? The AWS Config profile region identifier should be added to the file: region=us-gov-east-1
+ region=us-gov-east-1 as demonstrated by the ~/.aws/config example below
+ 
+[profile migrationking]
 
-##### China Region Support
-
-To use aws-azure-login with AWS China Cloud, set the `region` profile property in your ~/.aws/config to the China region:
-
-- cn-north-1
+region=us-gov-east-1
+azure_tenant_id=1a11d111-1111x-111x-111x1-00000000x00001x
+azure_app_id_uri=https://signin.amazonaws-us-gov.com/saml\#warrior4life
+azure_default_username=malcolm.shabazz@warrior4life.com
+azure_default_role_arn=
+azure_default_duration_hours=1
+azure_default_remember_me=false
 
 #### Staying logged in, skip username/password for future logins
 
