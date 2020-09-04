@@ -82,13 +82,13 @@ To use aws-azure-login with AWS GovCloud, set the `region` profile property in y
  
 [profile migrationking]
 
-region=us-gov-east-1
-azure_tenant_id=1a11d111-1111x-111x-111x1-00000000x00001x
-azure_app_id_uri=https://signin.amazonaws-us-gov.com/saml\#warrior4life
-azure_default_username=malcolm.shabazz@warrior4life.com
-azure_default_role_arn=
-azure_default_duration_hours=1
-azure_default_remember_me=false
+region=us-gov-east-1<p>
+azure_tenant_id=1a11d111-1111x-111x-111x1-00000000x00001x<p>
+azure_app_id_uri=https://signin.amazonaws-us-gov.com/saml\#warrior4life<p>
+azure_default_username=malcolm.shabazz@warrior4life.com<p>
+azure_default_role_arn=<p>
+azure_default_duration_hours=1<p>
+azure_default_remember_me=false<p>
 
 
 #### Staying logged in, skip username/password for future logins
