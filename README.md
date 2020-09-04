@@ -90,6 +90,7 @@ azure_default_role_arn=
 azure_default_duration_hours=1
 azure_default_remember_me=false
 
+
 #### Staying logged in, skip username/password for future logins
 
 During the configuration you can decide to stay logged in:
